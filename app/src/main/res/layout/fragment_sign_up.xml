@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/edittextbg"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="20dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"/>
+        <EditText
+            android:id="@+id/mobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:hint="Mobile No."
+            android:inputType="number"
+            android:drawableStart="@drawable/call"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextbg"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:text="Already have in Account!"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg"
+            android:text="Sign Up"
+            android:layout_margin="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+        <!-- Ajout de la séparation avec le texte "OR" au milieu -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center">
+
+            <!-- Divider Line -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCC"
+                android:layout_centerVertical="true"/>
+
+            <!-- "OR" Text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_centerInParent="true"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="OR"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+        <!-- Ajout du bouton "Sign Up With Google" -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/SignUpwithgoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/google_btn"
+            android:text="Sign Up With Google"
+            android:drawableStart="@drawable/google_icon1"
+            android:layout_margin="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

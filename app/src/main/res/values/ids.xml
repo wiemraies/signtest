@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="FullImage" type="id" />
+    <item name="AddCarInfo" type="id" />
+    <item name="GetLocation" type="id" />
+    <item name="CarLocation" type="id" />
+    <item name="CarNumber" type="id" />
+</resources>

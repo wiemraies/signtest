@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "936137473890",
+    "project_id": "signtest-80766",
+    "storage_bucket": "signtest-80766.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936137473890:android:4fd4ac885c284d4b06f63b",
+        "android_client_info": {
+          "package_name": "com.example.signtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936137473890-j25fvgcoimekft2b6ua53lk4ve112j70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.signtest",
+            "certificate_hash": "54db43ca606d35367db5cfa438cee493f9eeba9f"
+          }
+        },
+        {
+          "client_id": "936137473890-55s1bpp2s5dh03h4m02r86vrgvodbblk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6qloMAqmVZo58Pz12-3Cwyz5TcdKErNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936137473890-55s1bpp2s5dh03h4m02r86vrgvodbblk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
